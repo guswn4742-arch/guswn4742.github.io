@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "맑은 고딕", "돋움";
+    background-color: #F9F4EF;
+    color: #5C4632;
+}
+
+#page {
+    width: 980px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:768px){
+
+    #page{
+        width:95%;
+    }
+
+    .shop-item{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .shop-info{
+        width:100%;
+        margin:20px 0;
+    }
+
+    header nav li.item{
+        margin-left:10px;
+    }
+}
+
+header #logo {
+    float: left;
+    margin: 15px 0 0 20px;
+}
+
+header #moto {
+    float: left;
+    margin: 30px 0 0 20px;
+}
+
+header #top_menu {
+    float: right;
+    margin: 30px 0 0 0;
+}
+
+header #top_menu li {
+    display: inline;
+    font-size: 13px;
+}
+
+header #top_menu li a {
+    text-decoration: none;
+    color: #C49A82;
+}
+
+.line {
+    margin-top: 25px;
+    border-top: solid 1px #cccccc;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    margin-top: 25px;
+}
+
+header nav li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header nav li.item {
+    margin-left: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    margin-top: 30px;
+}
+
+.section-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #C49A82;
+}
+
+footer {
+    background-color: #5C4632;
+    color: #ffffff;
+    padding: 25px 20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 10px;
+    border-radius: 4px 4px 0 0;
+}
+
+footer p {
+    color: #F9F4EF;
+}
+
+.shop-section{
+    background:#ffffff;
+    padding:50px 30px;
+    border-radius:4px;
+    border:1px solid #E6E1DA;
+    margin-bottom:30px;
+}
+
+.shop-list{
+    margin-top:30px;
+}
+
+.shop-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 0;
+}
+
+.shop-image img{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.shop-info{
+    width:420px;
+}
+
+.shop-info h3{
+    font-size:18px;
+    margin-bottom:10px;
+    color:#5C4632;
+}
+
+.shop-desc{
+    font-size:14px;
+    color:#7A7571;
+    line-height:1.6;
+}
+
+.shop-price{
+    text-align:right;
+}
+
+.shop-price .price{
+    font-size:18px;
+    font-weight:bold;
+    color:#5C4632;
+    margin-bottom:8px;
+}
+
+.shop-price .delivery{
+    font-size:12px;
+    color:#999999;
+}
+
+.shop-line{
+    border-top:1px solid #E6E1DA;
+}
+
+.shop-btn{
+    margin-top:15px;
+}
+
+.buy-btn,
+.cart-btn{
+    display:inline-block;
+    padding:8px 14px;
+    border-radius:5px;
+    text-decoration:none;
+    font-size:12px;
+    margin-left:5px;
+}
+
+.buy-btn{
+    background-color:#5C4632;
+    color:#ffffff;
+}
+
+.cart-btn{
+    background-color:#E6E1DA;
+    color:#5C4632;
+}
+
+.buy-btn:hover{
+    background-color:#C49A82;
+}
+
+.cart-btn:hover{
+    background-color:#d8d2ca;
+}

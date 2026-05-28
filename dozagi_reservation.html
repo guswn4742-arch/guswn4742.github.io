@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온유 도자기 예약페이지</title>
+    <link rel="stylesheet" type="text/css" href="./dozagi_reservation.css" />
+</head>
+<body>
+    <div id="page">
+        <header>  
+            <a href="./index.html">
+            <img id="logo" src="./img_dozagi/logo.png" height="50px"></a>
+            <img id="moto" src="./img_dozagi/moto.png" height="25px">
+            <ul id="top_menu">      
+                <li><a href="./dozagi_login.html">로그인</a> |</li>
+                <li><a href="#">회원가입</a> |</li>
+                <li><a href="#">장바구니</a> |</li>
+                <li><a href="#">마이페이지</a></li>
+            </ul>
+            <div class="clear"></div>
+            <div class="line"></div>
+
+            <nav>
+                <ul>
+                    <li><a href="./dozagi_shop.html"><img src="./img_dozagi/menu_1_1.png" height="70px"></a></li>
+                    <li class="item"><a href="./dozagi_class.html"><img src="./img_dozagi/menu_2_1.png" height="70px"></a></li>
+                    <li class="item"><a href="./dozagi_studio.html"><img src="./img_dozagi/menu_3_1.png" height="70px"></a></li>
+                    <li class="item"><a href="./dozagi_review.html"><img src="./img_dozagi/menu_4_1.png" height="70px"></a></li>
+                    <li class="item"><a href="./dozagi_reservation.html"><img src="./img_dozagi/menu_5_1.png" height="70px"></a></li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+        <main>
+
+    <section class="reservation-section">
+
+    <h2 class="section-title">CLASS RESERVATION</h2>
+
+    <div class="calendar-wrap">
+
+        <ul id="date">
+            <li><img src="./img_dozagi/left.png"></li>
+            <li>2026년 6월</li>
+            <li><img src="./img_dozagi/right.png"></li>
+        </ul>
+
+<table id="table_date">
+
+    <tr id="day">
+        <th><span class="red">일</span></th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
+        <th><span class="blue">토</span></th>
+    </tr>
+
+    <!-- 1주 -->
+    <tr>
+
+        <td></td>
+
+        <td class="closed-day">
+            1<br>
+            <span class="closed-text">휴무</span>
+        </td>
+
+        <td>
+            2<br>
+            <span id="sched_day">원데이 클래스</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            3<br>
+            <span id="sched_day">원데이 클래스</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            4<br>
+            <span id="sched_day">핸드빌딩</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            5<br>
+            <span id="sched_day">물레 체험</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            <span class="blue">6</span><br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+    </tr>
+
+    <!-- 2주 -->
+    <tr>
+
+        <td>
+            <span class="red">7</span><br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+        <td class="closed-day">
+            8<br>
+            <span class="closed-text">휴무</span>
+        </td>
+
+        <td>
+            9<br>
+            <span id="sched_day">원데이 클래스</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            10<br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+        <td>
+            11<br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+        <td>
+            12<br>
+            <span id="sched_day">핸드빌딩</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            <span class="blue">13</span><br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+    </tr>
+
+    <!-- 3주 -->
+    <tr>
+
+        <td>
+            <span class="red">14</span><br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+        <td class="closed-day">
+            15<br>
+            <span class="closed-text">휴무</span>
+        </td>
+
+        <td>
+            16<br>
+            <span id="sched_day">원데이 클래스</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            17<br>
+            <span id="sched_day">원데이 클래스</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            18<br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+        <td>
+            19<br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+        <td>
+            <span class="blue">20</span><br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+    </tr>
+
+    <!-- 4주 -->
+    <tr>
+
+        <td>
+            <span class="red">14</span><br>
+            <span id="sched_day">원데이 클래스</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td class="closed-day">
+            22<br>
+            <span class="closed-text">휴무</span>
+        </td>
+
+        <td>
+            23<br>
+            <span id="sched_day">원데이 클래스</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            24<br>
+            <span id="sched_day">원데이 클래스</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>25<br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+        <td>
+            26<br>
+            <span id="sched_day">물레 체험</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td>
+            <span class="blue">27</span><br>
+            <span class="finish-text">예약 마감</span>
+        </td>
+
+    </tr>
+
+    <!-- 5주 -->
+    <tr>
+
+        <td>
+            <span class="red">28</span><br>
+            <span id="sched_day">물레 체험</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td class="closed-day">
+            29<br>
+            <span class="closed-text">휴무</span>
+        </td>
+
+        <td>
+            30<br>
+            <span id="sched_day">원데이 클래스</span><br>
+            <span class="available-text">예약 가능</span>
+        </td>
+
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+    </tr>
+
+    </table>
+
+    </div>
+
+    <div class="reservation-guide">
+
+    <h3>예약 절차 안내</h3>
+
+    <p>
+        STEP 1 : 원하는 클래스 선택<br>
+        STEP 2 : 예약 날짜 확인<br>
+        STEP 3 : 예약자 정보 입력 후 신청
+    </p>
+
+    </div>
+
+    <div class="reservation-form">
+
+        <h3>예약 정보 입력</h3>
+
+        <p>클래스 선택</p>
+        <select>
+            <option>원데이 클래스</option>
+            <option>정규 취미반</option>
+        </select>
+        
+        <p>예약 날짜</p>
+        <input type="text" placeholder="예: 2026-06-18">
+
+        <p>이름</p>
+        <input type="text">
+
+        <p>전화번호</p>
+        <input type="text">
+
+        <button>예약 신청하기</button>
+
+    </div>
+
+    <div class="refund-box">
+
+    <h3>취소 및 환불 규정</h3>
+
+    <p>
+        수업 시작 3일 전까지는 전액 환불 가능합니다.<br>
+        당일 취소 및 노쇼는 환불이 어렵습니다.
+    </p>
+
+    </div>
+
+    </section>
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+            <p>ONYOU CERAMIC STUDIO | 대표: 김현주 | 주소: 서울시 송파구 석촌호수 인근</p>
+            <p>Copyright &copy; 2026 ONYOU. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
